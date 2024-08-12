@@ -237,7 +237,6 @@ strong {
   object-fit: cover;
 }
 
-
 .custom-block .custom-btn {
   border-radius: 0;
   display: block;
@@ -1660,4 +1659,36 @@ blockquote::before {
   height: 25px;
   width: 25px;
   margin-right: 5px;
+}
+
+.floating-btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 60px;
+  right: 60px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.text-floating {
+  background: transparent;
+  border-radius: var(--border-radius-large);
+  color: var(--white-color);
+  font-size: var(--copyright-font-size);
+  display: block;
+  margin-right: 5px;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  line-height: 38px;
+  z-index: 10;
+  position: absolute;
+}
+
+.icon-image-floating {
+  height: 50px;
+  width: 50px;
+  margin-top: 10px;
 }
