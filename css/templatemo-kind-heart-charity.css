@@ -230,6 +230,14 @@ strong {
   object-fit: fill;
 }
 
+.image-product {
+  display: block;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+}
+
+
 .custom-block .custom-btn {
   border-radius: 0;
   display: block;
