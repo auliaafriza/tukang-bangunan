@@ -1589,7 +1589,8 @@ blockquote::before {
     top: 50%;
     background-color: transparent;
     padding-right: 50px;
-    min-width: inherit;
+    min-width: 420px;
+    width: 100vw;
     max-height: 200px;
   }
 }
@@ -1616,8 +1617,13 @@ blockquote::before {
   }
 
   #hero-slide .carousel-caption {
-    min-width: inherit;
+    width: 100vw;
+    top: 75%;
     padding-bottom: 30px;
+    max-height: 160px;
+    min-height: 70px;
+    background-color: white;
+    padding: 20px;
   }
 
   .carousel-control-next-icon,
