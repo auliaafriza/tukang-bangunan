@@ -1595,6 +1595,12 @@ blockquote::before {
   }
 }
 
+@media screen and (max-width: 580px) {
+  .btn-hide {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 40px;
