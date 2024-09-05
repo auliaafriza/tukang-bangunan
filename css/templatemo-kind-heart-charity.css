@@ -409,6 +409,11 @@ strong {
   color: var(--primary-color);
 }
 
+.navbar-nav .nav-link.nonactive {
+  background: transparent;
+  color: var(--p-color) !important;
+}
+
 .dropdown-menu {
   background: var(--white-color);
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
@@ -1705,4 +1710,15 @@ blockquote::before {
   height: 50px;
   width: 50px;
   margin-top: 10px;
+}
+
+.custom-block-image-discount {
+  display: block;
+  width: 100px;
+  max-height: 100px;
+  object-fit: fill;
+  z-index: 10;
+  position: absolute;
+  left: 80%;
+  top: -20px;
 }
